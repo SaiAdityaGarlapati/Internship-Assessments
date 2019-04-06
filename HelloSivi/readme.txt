@@ -1,5 +1,5 @@
-File Description:
-=====================================================================================================
+
+ File Description:
 
  1. keras_multiclass_person_or_not.ipynb -jupyter notebook containing alogorithm and approach
  2. keras_multiclass_person_or_not.py - same file in python file format containing algorithm and approach
@@ -7,10 +7,9 @@ File Description:
     person or not
  4. model accuracy verifier.ipynb - consists of code on to how load pretrained models and verify the accuracy
     if there is any premapped prediction.
- ====================================================================================================
 
 Dataset Description and Approach
-=====================================================================================================
+
 This is self created dataset which a combination of 2 datasets person dataset from internet and cat-dog datasets
 from machine hack website.
 
@@ -20,7 +19,6 @@ and trained cats and dogs to be identified as non-person
  - test data contains 60 images
  - trained data contains 827 images
  - prediction data contains 10 images
-
 
  Model explanation
 
@@ -33,4 +31,3 @@ and trained cats and dogs to be identified as non-person
  Model verifier
 
  - easily verify the model using the verifier code
-=======================================================================================================
