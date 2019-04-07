@@ -1,33 +1,20 @@
 
- File Description:
 
- 1. keras_multiclass_person_or_not.ipynb -jupyter notebook containing alogorithm and approach
- 2. keras_multiclass_person_or_not.py - same file in python file format containing algorithm and approach
- 3. person-model.h5 and person-model.json - pretrained models which can be loaded and used for prediction
-    person or not
- 4. model accuracy verifier.ipynb - consists of code on to how load pretrained models and verify the accuracy
-    if there is any premapped prediction.
+Folder: Person Image Classification Problem -
 
-Dataset Description and Approach
+Given a 256x256 image, write a binary classifier to differentiate the given image has a human or not.
+The approach and the code are more important than the accuracy rate. Please feel free to pick a relevant
+ open dataset for this problem. Upload the code and test images to GitHub and share the link.
+ Write a README on your approach
 
-This is self created dataset which a combination of 2 datasets person dataset from internet and cat-dog datasets
-from machine hack website.
+Folder: Finding Dominant Color Hexcode
 
-I have trained my model human images in case to identify persons
-and trained cats and dogs to be identified as non-person
+Given an image, identify the dominant colors (hex code) eliminating the neutral colors (white, black and greys)
+using OpenCV. Upload the code and test images to GitHub and share the link. Write a README on your approach
 
- - test data contains 60 images
- - trained data contains 827 images
- - prediction data contains 10 images
 
- Model explanation
+Note:
 
- - I have used Convolutional Neural Network to solve this problem statement
- - 3 Convolutional layers
- - then a flatten layer
- - continued by 2 Dense layers and a output layer
- - dropout has been used in dense layers to avoid overfitting
-
- Model verifier
-
- - easily verify the model using the verifier code
+P.S.: I am new to OpenCV, I have gone through lot of online blogs to come up with the solution. I wasn't able
+to eliminate neutral colors for second problem. I am currently going through Final exams(will get completed on april 12)
+and have an exam tomorrow. That's why I am mailing the solution before hand.
